@@ -1,4 +1,4 @@
-package com.example.demotest.controller;
+package utils;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
@@ -42,6 +42,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @author: hfHuang
  * @create: 2018-12-07
+ * https://www.cnblogs.com/lyy9902/p/8392202.html
+ * https://blog.csdn.net/s_ongfei/article/details/2794570
  */
 @Slf4j
 public class ExcelTool<T> {

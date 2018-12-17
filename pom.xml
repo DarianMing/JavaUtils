@@ -25,16 +25,69 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
         <!--内含StringEscapeUtils工具类-->
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
+        </dependency>
+        <!--结束-->
+        <!--单元测试包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>junit</groupId>-->
+            <!--<artifactId>junit</artifactId>-->
+            <!--<version>4.12</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.powermock</groupId>-->
+            <!--<artifactId>powermock-api-mockito-common</artifactId>-->
+            <!--<version>1.6.5</version>-->
+         <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.powermock</groupId>-->
+            <!--<artifactId>powermock-module-junit4</artifactId>-->
+            <!--<version>1.6.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.powermock</groupId>-->
+            <!--<artifactId>powermock-api-mockito</artifactId>-->
+            <!--<version>1.6.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.powermock</groupId>-->
+            <!--<artifactId>powermock-module-junit4-rule</artifactId>-->
+            <!--<version>1.6.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.powermock</groupId>-->
+            <!--<artifactId>powermock-classloading-xstream</artifactId>-->
+            <!--<version>1.6.6</version>-->
+        <!--</dependency>-->
+        <!--结束-->
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi excel导入导出包 开始-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.12</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.12</version>
+        </dependency>
+        <!--结束-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.22</version>
         </dependency>
     </dependencies>
 

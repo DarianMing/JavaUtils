@@ -1,4 +1,4 @@
-package com.lm.demo.config;
+package com.lm.demo.controller;
 
 import org.springframework.beans.propertyeditors.PropertiesEditor;
 import org.springframework.web.bind.WebDataBinder;
