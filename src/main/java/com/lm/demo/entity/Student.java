@@ -1,6 +1,5 @@
 package com.lm.demo.entity;
 
-import lombok.Builder;
 import lombok.Data;
 
 @Data
